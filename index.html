@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Global</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper wrapper">
+        <div class="header__nav">
+          <a href="#" class="header__logo-link">
+            <img
+              src="./img/header/header-logo.svg"
+              alt="logo"
+              class="header__logo"
+            />
+          </a>
+          <ul class="header__menu">
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>Mobile Top Up
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>About
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>Rate
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>Help
+            </li>
+          </ul>
+          <button class="header__btn btn">Sign Up</button>
+        </div>
+        <!-- Burger menu -->
+        <a href="#" class="burger">
+          <span></span>
+        </a>
+      </div>
+    </header>
+    <section class="content">
+      <div class="content__wrapper wrapper">
+        <div class="content__info">
+          <h1 class="content__title">
+            <span>Now Buy Your</span>
+            <span>PIN or <span class="content__title-top">Top Up</span></span>
+            <span class="content__title-long">With Bank Transfer</span>
+          </h1>
+          <p id="title" class="content__des"></p>
+          <button class="content__btn btn">Get Started</button>
+          <form class="content__form">
+            <input
+              id="search"
+              class="content__form-field"
+              type="text"
+              placeholder="Where do you want to call?"
+              minlength="4"
+              maxlength="12"
+              required=""
+            />
+            <button class="content__form-img">
+              <img src="img/search.svg" alt="search" />
+            </button>
+          </form>
+          <div class="content__users">
+            <div class="content__users-img">
+              <img
+                src="./img/users/user1.png"
+                alt="user"
+                class="user__img user1"
+              />
+              <img
+                src="./img/users/user2.png"
+                alt="user"
+                class="user__img user2"
+              />
+              <img
+                src="./img/users/user3.png"
+                alt="user"
+                class="user__img user3"
+              />
+              <img
+                src="./img/users/addUser.png"
+                class="user__img user4"
+                alt="user"
+              />
+            </div>
+            <p class="content__users-desc">
+              45k+ Regular User.
+              <a href="#" class="desc__link">View Price Plan</a>
+            </p>
+          </div>
+        </div>
+        <div class="content__img">
+          <img
+            src="./img/img-woman.png"
+            alt="woman"
+            class="content__img-woman"
+          />
+          <div class="flags">
+            <img
+              src="./img/flags/indian-flag.svg"
+              alt="indian flag"
+              class="flag flag1"
+            />
+            <img
+              src="./img/flags/british-flag.svg"
+              alt="british flag"
+              class="flag flag2"
+            />
+            <img
+              src="./img/flags/italian-flag.svg"
+              alt="italian flag"
+              class="flag flag3"
+            />
+            <img
+              src="./img/flags/indian-flag.svg"
+              alt="indian flag"
+              class="flag flag4"
+            />
+            <img
+              src="./img/flags/british-flag.svg"
+              alt="british flag"
+              class="flag flag5"
+            />
+            <img
+              src="./img/flags/italian-flag.svg"
+              alt="italian flag"
+              class="flag flag6"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./js/animation.js"></script>
+    <script src="./js/description.js"></script>
+    <script src="./js/search.js"></script>
+    <script src="./js/burger-menu.js"></script>
+  </body>
+</html>
